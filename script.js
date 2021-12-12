@@ -19,6 +19,6 @@ let isAlive = setInterval ( function(){
     let cactusLeft = parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
 
     if (cactusLeft < 50 && cactusLeft > 0 && dinoTop >= 140) {
-        alert(" GAME OVER!!")
+        alert(" Поражение !!!")
     }
 }, 10)
